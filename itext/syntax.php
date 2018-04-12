@@ -1,9 +1,9 @@
 <?php
 /**
-* Plugin Color: Sets new colors for text and background.
+* Plugin Itext: wraps text in a input field.
 *
 * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
-* @author     Christopher Smith <chris@jalakai.co.uk>
+* @author     Dugite-Code <dugite-code@peekread.info>
 */
 
 // must be run within Dokuwiki
