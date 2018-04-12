@@ -32,7 +32,6 @@ class syntax_plugin_itext extends DokuWiki_Syntax_Plugin {
 
 
 	public function getType(){ return 'formatting'; }
-	public function getAllowedTypes() { return array('formatting', 'substition', 'disabled'); }
 	public function getSort(){ return 158; }
 	public function connectTo($mode) { $this->Lexer->addEntryPattern('<itext.*?>(?=.*?</itext>)',$mode,'plugin_itext'); }
 	public function postConnect() { $this->Lexer->addExitPattern('</itext>','plugin_itext'); }
